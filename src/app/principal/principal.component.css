@@ -1,0 +1,84 @@
+
+ 
+  .principal{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  h1{
+    margin-left: 200px;
+  }
+
+  .principal button{
+     
+      background: #FA851D;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.35s;
+      outline: none;
+      color: #fff;
+      padding: 10px 50px;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+    
+  }
+
+  .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.buttons p{
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+  text-align: center;
+  padding: 30px;
+  
+}
+
+.buttons i{
+  position: relative;
+  margin-left: 70px;
+  margin-top: 20px;
+  
+}
+
+
+.buttons > div  {
+    margin: 10px;
+    border-radius: 10px;   
+    height: 120px; /* height given for illustration */
+    background: blue;
+    flex: 0 1 calc(16% - 20px); /* <-- adjusting for margin */
+   
+    
+    
+  }
+
+  .buttons > div:nth-last-child(5){
+    background: #FA851D;
+  }
+
+  .line hr{
+    margin-top: 3%;
+    color: grey;
+    width: 68%;
+    margin-left: 23%;
+  }
